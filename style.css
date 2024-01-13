@@ -1,9 +1,24 @@
+body * {
+  border: 1px solid red;
+
+}
+
 body {
   background-color: #0d0d0d;
   color: white;
 }
 
 section {
-  border: 1px solid red;
   height: 95vh;
 }
+
+/* home */
+/* projects */
+/* skills */
+
+.skill-icon {
+  height: 50px;
+}
+
+/* about */
+/* contact */
