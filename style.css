@@ -1,10 +1,10 @@
 body * {
-  border: 1px solid #bd4800;
+  /* border: 1px solid #bd4800; */
 
 }
 
 body {
-  background-color: #000000;
+  background-color: #4b4b4b;
   color: white;
 }
 
@@ -15,9 +15,13 @@ body {
 }
 
 section {
-  height: 55vh;
+  min-height: 55vh;
   width: 95%;
-  max-width: 1000px;
+  width: 1000px;
+  margin: 50px;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 5px 5px 5px #0d0d0d;
 }
 
 /* home */
@@ -58,8 +62,27 @@ section {
 
 /* skills */
 
+.skill-icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  min-height: 85%;
+  padding: 10px;
+}
+
+.skill-set {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .skill-icon {
-  height: 100px;
+  background-color: #4b4b4b;
+  height: 140px;
+  margin: 30px;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 5px 5px 5px #0d0d0d;
 }
 
 /* about */
