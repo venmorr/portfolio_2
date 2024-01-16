@@ -42,7 +42,7 @@ h3 {
 }
 
 a {
-  font-family: "Pixelify Sans", sans-serif;
+  font-family: "Roboto Mono", monospace;
   font-weight: 500;
   font-size: 24px;
   color: white;
@@ -51,6 +51,7 @@ a {
 
 p {
   font-family: "Roboto Mono", monospace;
+  font-size: 14px;
 }
 
 .nav {
@@ -77,6 +78,7 @@ p {
 }
 
 .nav-list {
+  font-family: "Roboto Mono", monospace;
   display: flex;
   justify-content: flex-end;
   justify-content: space-between;
@@ -96,7 +98,7 @@ a.nav-link {
 
 section {
   background-color: #232323e6;
-  /* min-height: 55vh; */
+  min-height: 55vh;
   width: 95%;
   width: 1000px;
   margin: 50px;
@@ -123,6 +125,9 @@ section {
   margin: 10px;
   height: 300px;
   padding: 5px;
+}
+#GA-project-bar {
+  margin: 10px;
 }
 
 .project-bar-scroll {
@@ -176,7 +181,7 @@ section {
 
 .skill-icons {
   display: flex;
-  /* flex-wrap: wrap; */
+  flex-wrap: wrap;
   justify-content: center;
   overflow-x: scroll;
   min-height: 85%;
@@ -205,7 +210,7 @@ section {
 
 .contact {
   display: flex;
-  height: 65vh;
+  height: 55vh;
 }
 
 .about-info {
