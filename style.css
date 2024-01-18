@@ -61,7 +61,7 @@ p {
 
 .about-me-text {
   font-family: "Roboto Mono", monospace;
-  font-size: 17.5px;
+  font-size: 17px;
   /* text-align: justify;
   text-justify: inter-word; */
 }
@@ -171,6 +171,14 @@ section {
   padding: 4px;
 }
 
+.favicon {
+  font-size: 60px;
+  background-color: #da6200;
+  border-radius: 100px;
+  width: 70px;
+  padding: 60px;
+}
+
 /* projects */
 
 .project-bar {
@@ -259,8 +267,6 @@ section {
   box-shadow: 5px 5px 5px #0d0d0d;
 }
 
-.skill-container {}
-
 .skill-icons-2 {
   display: flex;
   flex-wrap: wrap;
@@ -280,28 +286,6 @@ section {
   /* padding: 20px; */
   /* border-radius: 50%; */
   /* box-shadow: 5px 5px 5px #0d0d0d; */
-}
-
-.icons-backdrop {
-  /* display: flex; */
-  /* flex-wrap: wrap; */
-  /* justify-content: center; */
-  /* overflow-x: scroll; */
-  height: 250px;
-  width: 95%;
-  /* padding: 10px; */
-  /* margin-top: 20px; */
-  position: absolute;
-}
-
-.icon-backdrop {
-  background-color: white;
-  height: 40px;
-  width: 40px;
-  margin: 20px;
-  /* padding: 20px; */
-  border-radius: 50%;
-  box-shadow: 5px 5px 5px #0d0d0d;
 }
 
 .css-icon {
@@ -351,7 +335,7 @@ section {
 }
 
 .about-paragraphs {
-  padding: 10px;
+  padding: 20px;
   background-color: #4b4b4b;
   border-radius: 4px;
   box-shadow: 5px 5px 5px #0d0d0d;
