@@ -56,7 +56,9 @@ p {
 
 .about-me-text {
   font-family: "Roboto Mono", monospace;
-  font-size: 18px;
+  font-size: 17.5px;
+  /* text-align: justify;
+  text-justify: inter-word; */
 }
 
 .nav {
@@ -276,8 +278,6 @@ section {
   font-size: 21px;
   font-family: "Roboto Mono", monospace;
 }
-
-
 
 .about-paragraphs {
   padding: 10px;
