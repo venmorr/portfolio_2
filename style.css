@@ -35,6 +35,12 @@ h1 {
   font-size: 36px;
 }
 
+h2 {
+  font-family: "Roboto Mono", monospace;
+  font-size: 22px;
+  font-weight: 400;
+}
+
 h3 {
   font-family: "Pixelify Sans", sans-serif;
   font-weight: 400;
@@ -107,7 +113,6 @@ a.nav-link {
 section {
   background-color: #232323e6;
   min-height: 55vh;
-  width: 95%;
   width: 1000px;
   margin: 50px;
   padding: 20px;
@@ -123,6 +128,12 @@ section {
 
 #home{
   margin-top: 130px;
+}
+
+.home {
+  min-height: 55vh;
+  width: 1000px;
+  margin: 50px;
 }
 
 /* projects */
