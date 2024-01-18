@@ -1,6 +1,5 @@
 body * {
   /* border: 1px solid #3700ff; */
-
 }
 
 /* <uniquifier>: Use a uniquifier for the class name
@@ -76,7 +75,7 @@ p {
   width: 100%;
   max-width: 1300px;
   color: white;
-  background-color: #ee6c01;
+  /* background-color: #ee6c01; */
   background-color: #da6200;
   margin: 0px;
   padding-left: 35px;
@@ -87,6 +86,7 @@ p {
   justify-content: space-between;
   align-items: center;
   box-shadow: 0px 5px 15px black;
+  /* text-shadow: 0px 5px 15px black; */
   border-bottom-left-radius: 25px;
   border-bottom-right-radius: 25px;
 }
@@ -116,6 +116,7 @@ section {
   width: 1000px;
   margin: 50px;
   padding: 20px;
+  border: solid 10px #4b4b4b;
   border-radius: 4px;
   box-shadow: 5px 5px 5px #0d0d0d;
 }
@@ -131,9 +132,43 @@ section {
 }
 
 .home {
-  min-height: 55vh;
+  min-height: 75vh;
   width: 1000px;
   margin: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-pic {
+  background-color: #232323e6;
+  border: solid 10px #4b4b4b;
+  border-radius: 140px;
+  box-shadow: 5px 5px 5px #0d0d0d;
+  height: 210px;
+  width: 210px;
+  margin: 25px;
+  padding: 20px;
+}
+
+.home-info {
+  background-color: #232323e6;
+  border: solid 10px #4b4b4b;
+  border-radius: 4px;
+  box-shadow: 5px 5px 5px #0d0d0d;
+  padding: 20px;
+}
+
+.hello-div {
+  display: flex;
+  align-items: center;
+}
+
+.steve {
+  margin: 10px;
+  background-color: #da6200;
+  border-radius: 5px;
+  padding: 4px;
 }
 
 /* projects */
@@ -224,24 +259,49 @@ section {
   box-shadow: 5px 5px 5px #0d0d0d;
 }
 
+.skill-container {}
+
 .skill-icons-2 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   overflow-x: scroll;
-  min-height: 40%;
+  height: 250px;
   width: 95%;
   padding: 10px;
+  margin-top: 20px;
 }
 
 .skill-icon-2 {
-  /* background-color: #4b4b4b; */
+  /* background-color: white; */
   height: 40px;
   width: 40px;
   margin: 20px;
   /* padding: 20px; */
-  /* border-radius: 4px; */
+  /* border-radius: 50%; */
   /* box-shadow: 5px 5px 5px #0d0d0d; */
+}
+
+.icons-backdrop {
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+  /* justify-content: center; */
+  /* overflow-x: scroll; */
+  height: 250px;
+  width: 95%;
+  /* padding: 10px; */
+  /* margin-top: 20px; */
+  position: absolute;
+}
+
+.icon-backdrop {
+  background-color: white;
+  height: 40px;
+  width: 40px;
+  margin: 20px;
+  /* padding: 20px; */
+  border-radius: 50%;
+  box-shadow: 5px 5px 5px #0d0d0d;
 }
 
 .css-icon {
@@ -320,8 +380,8 @@ section {
   font-weight: 600;
   justify-content: center;
   line-height: 1.25;
-  margin: 0;
-  min-height: 3rem;
+  margin: 5px;
+  height: 50px;
   padding: calc(.875rem - 1px) calc(1.5rem - 1px);
   position: relative;
   text-decoration: none;
@@ -330,7 +390,8 @@ section {
   -webkit-user-select: none;
   touch-action: manipulation;
   vertical-align: baseline;
-  width: auto;
+  /* width: auto; */
+  width: 160px;
 }
 
 .button-5:hover,
