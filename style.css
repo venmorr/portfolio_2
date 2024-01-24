@@ -19,7 +19,7 @@ body {
   background-size: cover;
   background-color: #232323;
   background-image: url("assets/images/iStock-1074930000.jpg");
-  color: #012d6a;
+  color: #48505B;
 }
 
 .main {
@@ -29,28 +29,31 @@ body {
 }
 
 h1 {
-  font-family: "Pixelify Sans", sans-serif;
-  font-weight: 500;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
   font-size: 36px;
+  color: #48505B;
 }
 
 h2 {
   font-family: "Roboto Mono", monospace;
   font-size: 22px;
   font-weight: 400;
+  color: #48505B;
 }
 
 h3 {
-  font-family: "Pixelify Sans", sans-serif;
+  font-family: "Bebas Neue", sans-serif;
   font-weight: 400;
   font-size: 24px;
+  color: #48505B;
 }
 
 a {
   font-family: "Roboto Mono", monospace;
   font-weight: 500;
   font-size: 24px;
-  color: #012d6ae6;
+  color: #48505B;
   text-decoration: none;
 }
 
@@ -61,7 +64,8 @@ p {
 
 .about-me-text {
   font-family: "Roboto Mono", monospace;
-  font-size: 17px;
+  font-size: 22px;
+  color: #48505B;
   /* text-align: justify;
   text-justify: inter-word; */
 }
@@ -72,7 +76,7 @@ p {
   height: 96vh;
   width: 275px;
   max-width: 1300px;
-  color: #012d6ae6;
+  color: #48505B;
   /* background-color: #ee6c01; */
   margin: 10px;
   padding: 35px;
@@ -107,7 +111,7 @@ a.nav-link {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: large;
   margin-right: 30px;
-  color: white;
+  color: #F4F4F5;
   text-decoration: none;
 }
 
@@ -180,9 +184,13 @@ section {
 .steve {
   margin: 10px;
   background-color: #da6200;
-  color: white;
+  background-color: #C76A2C;
+  color: #F4F4F5;
   border-radius: 5px;
-  padding: 4px;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  align-content: center;
 }
 
 .favicon {
@@ -308,7 +316,7 @@ section {
 }
 
 .skill-icon-2 {
-  /* background-color: white; */
+  /* background-color: #F4F4F5; */
   height: 40px;
   width: 40px;
   margin: 20px;
@@ -369,6 +377,7 @@ section {
   border-radius: 10px 25px 25px 10px;
   border-left: 5px solid #012d6a38;
   box-shadow: 3px 3px 5px #55555574;
+  overflow: auto;
 }
 
 .btn-div {
@@ -381,7 +390,7 @@ section {
 .button-5 {
   align-items: center;
   background-clip: padding-box;
-  background-color: #fa6400;
+  background-color: #C76A2C;
   border: 1px solid transparent;
   border-radius: .25rem;
   box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
