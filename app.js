@@ -1,8 +1,16 @@
 const autoTextElement = document.querySelector('.auto-text');
 
 const descriptions = [
-  'rats',
-  'Fullstack Engineer',
+  'Software Engineer',
+  'Fullstack Developer',
+  'UX/UI Designer',
+  'Code Enthusiast',
+  'Web Wizard',
+  'Creative Coder',
+  'Problem Solver',
+  'Frontend Ninja',
+  'Behavioral Analyst',
+  'Planeswalker',
   'D&D Enjoyer',
 ];
 
@@ -26,7 +34,7 @@ const textAutomation = () => {
         eraseText();
       }, 1000); 
     }
-  }, 200);
+  }, 150);
 };
 
 const eraseText = () => {
@@ -44,7 +52,7 @@ const eraseText = () => {
       // Wait for a moment, then start typing again
       setTimeout(() => {
         textAutomation();
-      }, 1000);
+      }, 500);
     }
   }, 50);
 };
