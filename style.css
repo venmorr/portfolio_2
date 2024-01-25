@@ -26,6 +26,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100%;
 }
 
 h1 {
@@ -69,8 +70,6 @@ p {
   /* text-align: justify;
   text-justify: inter-word; */
 }
-
-  
 
 .nav {
   height: 96vh;
@@ -120,13 +119,17 @@ section {
   width: 1000px;
   margin: 50px;
   padding: 20px;
-  /* border: solid 10px #4b4b4b; */
-  /* border-radius: 4px; */
-  /* box-shadow: 5px 5px 5px #0d0d0d; */
   border-radius: 25px; 
   background-color: #dadada74;
   box-shadow: 3px 3px 5px #55555574;
   backdrop-filter: blur(5px);
+
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-evenly; */
 }
 
 .section-title {
@@ -179,6 +182,15 @@ section {
 .hello-div {
   display: flex;
   align-items: center;
+  margin-left: 4px;
+  height: 70px;
+}
+
+.auto-text-container {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  margin: 0px 10px 10px 5px;
 }
 
 .steve {
@@ -207,7 +219,7 @@ section {
   display: flex;
   /* justify-content: space-around; */
   margin: 10px;
-  height: 300px;
+  height: 400px;
   padding: 5px;
 }
 #GA-project-bar {
@@ -217,6 +229,7 @@ section {
 .project-bar-scroll {
   display: flex;
   overflow-x: scroll;
+  height: 530px;
 }
 
 .era-info {
@@ -234,7 +247,7 @@ section {
   display: flex;
   flex-direction: column;
   width: 180px;
-  height: 80%;
+  height: 350px;
   min-width: 250px;
   /* border: 2px solid; */
   border-radius: 10px;
@@ -255,8 +268,13 @@ section {
   border-bottom-right-radius: 10px;
 }
 
+.project-card-info-and-github-link {
+  display: flex;
+  justify-content: space-between;
+}
 
-.project-card-pocket-left {
+
+/* .project-card-pocket-left {
   height: 96%;
   width: 30px;
   padding-top: 10px;
@@ -274,7 +292,7 @@ section {
   border-right: 2px solid #012d6aae;
   box-shadow: 4px 0px 5px #012d6aae;
   z-index: 1;
-}
+} */
 
 /* skills */
 
@@ -433,32 +451,3 @@ section {
   transform: translateY(0);
 }
 
-/* .contact {
-  display: flex;
-  flex-direction: column;
-  height: 95vh;
-}
-
-.learn-contact {
-  display: flex;
-  height: 50%;
-}
-
-.contact-left {
-  background-color: #4b4b4b;
-  
-  width: 40%;
-  margin: 30px;
-  padding: 20px;
-  border-radius: 4px;
-  box-shadow: 5px 5px 5px #0d0d0d;
-}
-
-.contact-right {
-  background-color: #4b4b4b;
-  width: 40%;
-  margin: 30px;
-  padding: 20px;
-  border-radius: 4px;
-  box-shadow: 5px 5px 5px #0d0d0d;
-} */

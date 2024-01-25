@@ -10,7 +10,6 @@ const descriptions = [
   'Problem Solver',
   'Frontend Ninja',
   'Behavioral Analyst',
-  'Planeswalker',
   'D&D Enjoyer',
 ];
 
