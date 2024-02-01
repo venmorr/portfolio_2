@@ -3,59 +3,57 @@ const autoTextElement = document.querySelector('.auto-text');
 const descriptions = [
   'Software Engineer',
   'Fullstack Developer',
-  'UX/UI Designer',
-  'Code Enthusiast',
-  'Web Wizard',
-  'Creative Coder',
+  'Creative Designer',
   'Problem Solver',
+  'Web Wizard',
   'Frontend Ninja',
   'Behavioral Analyst',
   'D&D Enjoyer',
 ];
 
-let outputText = '';
-let currentIndex = 0;
+let outputText = ''
+let currentIndex = 0
 
 const textAutomation = () => {
-  const currentText = descriptions[currentIndex];
-  const brokenText = currentText.split('');
+  const currentText = descriptions[currentIndex]
+  const brokenText = currentText.split('')
 
   let intervalId = setInterval(() => {
     if (brokenText.length > 0) {
-      outputText += brokenText.shift();
-      autoTextElement.innerText = outputText;
-      console.log(outputText);
+      outputText += brokenText.shift()
+      autoTextElement.innerText = outputText
+      console.log(outputText)
     } else {
-      clearInterval(intervalId);
+      clearInterval(intervalId)
 
       // Wait for a moment, then erase the text
       setTimeout(() => {
-        eraseText();
-      }, 1000); 
+        eraseText()
+      }, 1000) 
     }
-  }, 150);
-};
+  }, 150)
+}
 
 const eraseText = () => {
   let intervalId = setInterval(() => {
     if (outputText.length > 0) {
-      outputText = outputText.slice(0, -1);
-      autoTextElement.innerText = outputText;
-      console.log(outputText);
+      outputText = outputText.slice(0, -1)
+      autoTextElement.innerText = outputText
+      console.log(outputText)
     } else {
-      clearInterval(intervalId);
+      clearInterval(intervalId)
 
       // Move to the next text in the array
-      currentIndex = (currentIndex + 1) % descriptions.length;
+      currentIndex = (currentIndex + 1) % descriptions.length
 
       // Wait for a moment, then start typing again
       setTimeout(() => {
-        textAutomation();
-      }, 500);
+        textAutomation()
+      }, 500)
     }
-  }, 50);
-};
+  }, 50)
+}
 
 // Start the animation
-textAutomation();
+textAutomation()
 
