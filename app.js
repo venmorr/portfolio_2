@@ -1,4 +1,11 @@
 const autoTextElement = document.querySelector('.auto-text');
+const slideIn = document.querySelector('.slide-in')
+
+window.addEventListener('scroll', function() {
+  navAnimation()
+})
+
+
 
 const descriptions = [
   'Software Engineer',
@@ -57,5 +64,12 @@ const eraseText = () => {
 textAutomation()
 
 const navAnimation = () => {
-  
+  console.log(document.documentElement.scrollTop) 
+  if (document.documentElement.scrollTop > 200) {
+    slideIn.style.top="-10px"
+  } else {
+    slideIn.style.top="-190px"
+  }
 }
+
+navAnimation()
