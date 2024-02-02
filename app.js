@@ -22,7 +22,6 @@ const textAutomation = () => {
     if (brokenText.length > 0) {
       outputText += brokenText.shift()
       autoTextElement.innerText = outputText
-      console.log(outputText)
     } else {
       clearInterval(intervalId)
 
@@ -39,7 +38,7 @@ const eraseText = () => {
     if (outputText.length > 0) {
       outputText = outputText.slice(0, -1)
       autoTextElement.innerText = outputText
-      console.log(outputText)
+      
     } else {
       clearInterval(intervalId)
 
@@ -57,3 +56,6 @@ const eraseText = () => {
 // Start the animation
 textAutomation()
 
+const navAnimation = () => {
+  
+}
