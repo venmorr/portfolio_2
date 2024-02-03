@@ -2,16 +2,6 @@ body * {
   /* border: .5px solid #3700ff; */
 }
 
-/* <uniquifier>: Use a uniquifier for the class name
-<weight>: Use a value from 400 to 700 */
-
-/* .pixelify-sans-<uniquifier> {
-  font-family: "Pixelify Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-} */
-
 html, body {
   max-width: 100%;
   /* overflow-y: hidden; */
@@ -146,7 +136,7 @@ p {
 } */
 
 .slide-in {
-  height: 190px;
+  height: 140px;
   width: 105vw;
   position: fixed;
   z-index: 2;
@@ -196,8 +186,6 @@ a.nav-link {
 
 .nav-link:hover {
   color: #C76A2C;
-  /* background-color: #C76A2C; */
-
   
 }
 
@@ -324,12 +312,11 @@ section {
 .project-bar-scroll {
   display: flex;
   overflow-x: scroll;
-  height: 530px;
+  height: 398px;
 }
 
 .era-info {
-  min-width: 300px;
-  max-width: 300px;
+  max-width: 190px;
   padding: 5px;
 }
 
@@ -359,8 +346,10 @@ section {
 }
 
 .project-pic {
+  min-width: 99%;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
+  overflow: hidden;
 }
 
 .project-card-info-and-github-link {
@@ -460,13 +449,13 @@ section {
 }
 
 .about-pic {
-  background-color: #4b4b4b;
+  background-color: #dadada;
   height: 140px;
   width: 150px;
   /* margin: 25px; */
-  padding: 20px;
-  border-radius: 4px;
-  box-shadow: 5px 5px 5px #0d0d0d;
+  padding: 10px;
+  border-radius: 100px;
+  box-shadow: 3px 3px 5px #55555574;
 }
 
 .gh-info {
