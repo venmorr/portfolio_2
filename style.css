@@ -231,7 +231,21 @@ section {
   justify-content: center;
 }
 
+.project-article {
+  background-color: #dadada;
+  margin: 5px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 5px #55555574;
+}
 
+.name-and-git {
+  background-color: #dadada;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  justify-content: flex-end;
+    align-items: center;
+}
 
 .project-pic-2 {
   max-width: 450px;
@@ -510,9 +524,9 @@ section {
   background-color: #dadada;
   border-radius: 10px 25px 25px 10px;
   /* border-left: 5px solid #012d6a38; */
-  border-right: 5px solid #012d6a38;
-  border-bottom: 5px solid #012d6a38;
-  /* box-shadow: 3px 3px 5px #55555574; */
+  /* border-right: 5px solid #012d6a38;
+  border-bottom: 5px solid #012d6a38; */
+  box-shadow: 3px 3px 5px #55555574;
   overflow: auto;
 }
 
