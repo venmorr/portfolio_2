@@ -118,33 +118,6 @@ p {
   justify-content: space-around;
 }
 
-/* .nav-y-0 {
-  height: 90px;
-  width: 100vw;
-  padding: 35px;
-  position: fixed;
-  z-index: 2;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
-}
-
-.nav-y-99 {
-  height: 90px;
-  width: 100vw;
-  padding: 35px;
-  position: fixed;
-  z-index: 2;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
-
-  background-color: #dadada;
-  box-shadow: 3px 3px 5px #55555574;
-} */
-
 .slide-in {
   height: 140px;
   width: 105vw;
@@ -201,7 +174,7 @@ a.nav-link {
 
 .nav-contact {
   margin: 10px;
-  width: 100%;
+  width: 200px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -216,7 +189,23 @@ section {
   background-color: #dadada74;
   box-shadow: 3px 3px 5px #55555574;
   backdrop-filter: blur(5px);
+}
 
+.section-title {
+  margin: 10px;
+  width: 28%;
+  background-color: #da6200;
+  background-color: #C76A2C;
+  color: #F4F4F5;
+  border-radius: 5px;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  align-content: center;
+}
+
+.project-section-title {
+  width: 11%;
 }
 
 .projects {
@@ -255,9 +244,7 @@ section {
   background-color: #000;
 }
 
-.dwarf-quest {
-  background-image: '../assets/images/app-pics/dwarf-quest-pic.png' ;
-}
+
 
 .section-title {
   margin-top: 50px;
@@ -403,28 +390,34 @@ section {
   justify-content: space-between;
 }
 
-
-/* .project-card-pocket-left {
-  height: 96%;
-  width: 30px;
-  padding-top: 10px;
-  border-top-right-radius: 5px;
-  border-bottom-right-radius: 5px;
-  background-color: #232323e6;
-  border-left: 2px solid #232323;
-  box-shadow: -4px 0px 7px #232323;
+.experience-container {
+  padding: 20px;
+  background-color: #dadada;
+  border-radius: 25px;
+  box-shadow: 3px 3px 5px #55555574;
+  overflow: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
-.project-card-pocket-right {
-  height: 98%;
-  width: 30px;
-  background-color: #012d6aae;
-  border-right: 2px solid #012d6aae;
-  box-shadow: 4px 0px 5px #012d6aae;
-  z-index: 1;
-} */
+.experience-article {
+  max-width: 400px;
+}
 
-/* skills */
+.position-and-date {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.experience-article-info {
+  padding: 20px;
+  background-color: #f4f4f5;
+  border-radius: 25px;
+  box-shadow: 3px 3px 5px #55555574;
+  font-size: 16px;
+}
 
 .skill-icons {
   display: flex;

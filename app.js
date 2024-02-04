@@ -65,7 +65,7 @@ textAutomation()
 
 const navAnimation = () => {
   console.log(document.documentElement.scrollTop) 
-  if (document.documentElement.scrollTop > 400) {
+  if (document.documentElement.scrollTop > 300) {
     slideIn.style.top="-10px"
   } else {
     slideIn.style.top="-190px"
