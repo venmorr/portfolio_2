@@ -8,6 +8,16 @@ html, body {
   overflow-x: hidden;
 }
 
+/* .scroll-snap-container {
+  height: 100vh;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+}
+
+.scroll-snap-item {
+  scroll-snap-align: start;
+} */
+
 body {
   background-attachment: fixed;
   background-position: center;
@@ -215,6 +225,24 @@ section {
   /* justify-content: space-evenly; */
 }
 
+.project-cards-2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.project-pic-2 {
+  max-width: 450px;
+  margin: 15px 15px 0px 15px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 5px #55555574;
+  background-color: #000;
+}
+
+.dwarf-quest {
+  background-image: '../assets/images/app-pics/dwarf-quest-pic.png' ;
+}
+
 .section-title {
   margin-top: 50px;
 }
@@ -333,11 +361,13 @@ section {
   min-width: 250px;
   /* border: 2px solid; */
   border-radius: 10px;
+  border-right: 5px solid #012d6a38;
+  border-bottom: 5px solid #012d6a38;
   margin-left: 20px;
   margin-top: 10px;
   padding: 10px;
-  box-shadow: 5px 5px 5px #0d0d0d;
-  box-shadow: 3px 3px 5px #55555574;
+  /* box-shadow: 5px 5px 5px #0d0d0d; */
+  /* box-shadow: 3px 3px 5px #55555574; */
 }
 
 .project-title {
@@ -346,7 +376,7 @@ section {
 }
 
 .project-pic {
-  min-width: 99%;
+  max-width: 250px;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
   overflow: hidden;
@@ -477,8 +507,10 @@ section {
   padding: 20px;
   background-color: #dadada;
   border-radius: 10px 25px 25px 10px;
-  border-left: 5px solid #012d6a38;
-  box-shadow: 3px 3px 5px #55555574;
+  /* border-left: 5px solid #012d6a38; */
+  border-right: 5px solid #012d6a38;
+  border-bottom: 5px solid #012d6a38;
+  /* box-shadow: 3px 3px 5px #55555574; */
   overflow: auto;
 }
 
