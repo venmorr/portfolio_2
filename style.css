@@ -390,9 +390,9 @@ section {
 
 .experience-container {
   padding: 20px;
-  background-color: #dadada;
+  /* background-color: #dadada;
   border-radius: 25px;
-  box-shadow: 3px 3px 5px #55555574;
+  box-shadow: 3px 3px 5px #55555574; */
   overflow: auto;
   display: flex;
   flex-wrap: wrap;
@@ -401,6 +401,11 @@ section {
 
 .experience-article {
   max-width: 400px;
+  background-color: #dadada;
+  box-shadow: 3px 3px 5px #55555574;
+  border-radius: 25px;
+  padding: 20px;
+  margin-bottom: 20px;
 }
 
 .position-and-date {
