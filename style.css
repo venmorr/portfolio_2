@@ -244,8 +244,6 @@ section {
   background-color: #000;
 }
 
-
-
 .section-title {
   margin-top: 50px;
 }
@@ -406,7 +404,7 @@ section {
 }
 
 .position-and-date {
-  display: flex;
+  /* display: flex; */
   justify-content: space-between;
   align-items: center;
 }
